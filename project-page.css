@@ -66,8 +66,8 @@ table {
 
 .container {
 
-/*  max-width: 200em;*/
-  max-width: 324em;
+  max-width: 150em;
+/*  max-width: 324em;*/
   margin: 0 auto;
 }
 
@@ -147,9 +147,13 @@ nav {
   max-width: auto;
   max-height: 3456px;
   width: 100%; 
-  padding: 0 4.3%;
+/*  padding: 0 4.3%; */
 
+}
 
+.full-span-bg {
+
+  background-color: #f6f6f6;
 }
 
 /* Project Summary */
@@ -163,11 +167,19 @@ nav {
         visibility:hidden;
 }
 
-.project-summary-wrapper {
+.primary-summary-wrapper {
 
   background-color: #ffffff;
   margin: 0 auto;
   padding: 4.3% 4.3%;
+
+}
+
+.secondary-summary-wrapper {
+
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 4.3% 4.3% 4.3%;  
 
 }
 
@@ -180,16 +192,16 @@ nav {
     margin-bottom: .3em;
     letter-spacing: .1em;
     text-align: center;
-
+        text-transform: uppercase;
    }
 
 .project-h2 {
     font-family: 'Abel', sans-serif;
     font-size: 1.2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     letter-spacing: .1em;
     text-align: center;
-/*        text-transform: uppercase;*/
+    text-transform: capitalize;
   }
 
         /*Text Columns*/
@@ -207,6 +219,17 @@ nav {
 
         }
 
+strong {
+
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    display: inline;
+
+}
+
 /*Project Header Colors*/
 
 .free-people-header {
@@ -214,6 +237,24 @@ nav {
       color: #cf472a;
 
 }
+
+.ubook-header {
+
+      color: #425c74;
+
+}
+
+.juvet-header {
+
+      color: #000000;
+
+}
+
+.brewing-label-header {
+
+      color: #A53A38;
+}
+
 
 
 /*Project Summary Paragraph Style*/
@@ -227,6 +268,7 @@ p {
    }
 
 /*   Project Images   */
+
 .clearfix:after{
 
       content:".";
@@ -240,16 +282,30 @@ p {
 .half-span-container { 
 
   background-color: #ffffff;
+  padding: 0 4.2% 4.2% 4.2%;
   margin: 0 auto;
-  padding: 0 4.3% 4.3% 4.3%;
 
 }
 
 .half-span {
-  position: relative;
-  width: 50%;
+/*  position: relative;*/
+  width: 49%;
   float: left;
+  padding: .1%;
+  display: block;
+  margin: 0 auto;
 
+
+}
+
+.full-span-secondary img{
+
+  padding: 0 4.2% 4.2% 4.2%;
+  /*clear: both;*/
+  max-width: auto;
+  max-height: 3456px;
+  width: 100%; 
+/*  padding: 0 4.3%; */
 
 }
 /*Footer*/

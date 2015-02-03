@@ -67,8 +67,8 @@ table {
 
 .container {
 
-/*	max-width: 200em;*/
-	max-width: 324em;
+	max-width: 150em;
+	/*max-width: 324em;*/
 	margin: 0 auto;
 }
 
@@ -145,7 +145,7 @@ nav {
 /* Slideshow */
 
 .slideshow img {
-	margin-top : 6em;
+	margin : 6em 0 0 0;
 	/*clear: both;*/
 	background-color: #DBEEFF;
 	max-width: auto;
@@ -240,13 +240,13 @@ p {
 	width: 50%;
 	float: left;
 
-
 }
 
 
 .individual-project img {
 
 	width: 100%;
+
 }
 
 /*Hover*/
@@ -281,12 +281,6 @@ p {
 
 }
 
-.mascot:hover {
-		opacity: 100;
-		background-color: #0f034f;
-		background-color: rgba(15,3,79,0.8);
-
-}
 
 .annual-report:hover {
 		opacity: 100;
@@ -295,24 +289,17 @@ p {
 
 }
 
-.mercedes:hover {
+.juvet:hover {
 		opacity: 100;
-		background-color: #f8931f;
-		background-color: rgba(248,147,31,0.8);
+		background-color: #201b53;
+		background-color: rgba(32,27,83,0.8);
 
 }
 
-.type-giant:hover {
+.brewing-label:hover {
 		opacity: 100;
-		background-color: #a0b07c;
-		background-color: rgba(160,176,124,0.8);
-
-}
-
-.photo-cook:hover {
-		opacity: 100;
-		background-color: #613a15;
-		background-color: rgba(97,58,21,0.8);
+		background-color: #A53A38;
+		background-color: rgba(165,58,56,0.8);
 
 }
 
