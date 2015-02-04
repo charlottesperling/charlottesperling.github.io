@@ -363,23 +363,29 @@ div.toggle-back {
   position: relative;
   float: left;
   padding: auto 0;
-  width: 
 }
 
-/*div.toggle-back a {
+/* NOTES : if you want your link to turn yellow on hover on the div, put your colors
+in the div, and change the nav to inherit the colors from the div. See the following 
 
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-decoration: none;
-  z-index: 200;
-  background-color: #ffffff;
-}*/
+div.toggle-back {
+  color:#b9b9b9;
+}
+div.toggle-back:hover {
+  color : #ffc400 ;
+}
+
+div.toggle-back :active {
+  color : #E6B000;
+}
+nav.work-toggle-container a {
+  color:inherit;
+}
+To change this, just remove all the color stuff you have up top
+*/
 
 .back {
-  margin-left: 2em;
+  padding-left: 2em; /* NOTES : Changed from margin-left to padding-left */
 
 }
 
