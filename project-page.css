@@ -87,22 +87,33 @@ header {
 }
 
 
-.logo {
+a.logo-sprite {
 
   float: left;
-  max-width: 20em;
-  min-width: 18em;
-  width: 25%;
   margin-right: 6em;
-
+  width: 19em;
+  height: 0;
+  padding-bottom: 1.6em;
+  background-image: url("logo-sprite.jpg");
+  background-position: 0 0;
+  background-size: 300% 100%;
+  display: block;
 }
 
+a.logo-sprite:hover {
+
+    background-position: 50% 0;
+}
+
+a.logo-sprite:active {
+    background-position: 100% 0;
+
+}
 
 .pages { 
 
   float: right;
-    /*padding: .2em 0;*/
-  padding: auto 0;
+    margin: .2em 0;
 }
 
 .pages li {
@@ -112,6 +123,7 @@ header {
   display: block;
   font-family: 'Abel', sans-serif;
   font-size: 1.2em;
+
 
   /* To keep menu list in order*/
     float: left;
