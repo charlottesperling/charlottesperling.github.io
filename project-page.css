@@ -412,6 +412,7 @@ nav.work-toggle-container a {
 
 /*Toggle Back*/
       /*   Toggle Back Position  */
+
             div.toggle-back { 
               position: relative;
               float: left;
@@ -420,40 +421,19 @@ nav.work-toggle-container a {
 
 
             .back {
-              padding-left: 2em;  /*Padding allows all elements to be selected in div*/
+              padding-left: 1em; 
 
             }
 
-span.icon-arrow-left:before {
-      font-family: 'untitled-font-4';
-      color: black;
-      font-size: 3em;
+      /*Arrow Left Position*/
+
+          .icon-arrow-left {
+/*                position: absolute;*/
+                padding-top: .15em;
+                float: left;
 
 }
-     /*       Arrow Left Sprite    */
-/*            a.arrow-left {
-              position: absolute;
-              top: 50%;
-              transform: translateY(-50%);
-              float: left;
-              width: 1em;
-              height: 0;
-              padding-bottom: .55em;
-              background-image: url("assets/arrow-left-sprite.png");
-              background-position: 0 0;
-              background-size: 300% 100%;
-              display: block;
 
-            }
-
-            a.arrow-left:hover {
-              background-position: 50% 0;
-
-            }
-
-            a.arrow-left:active {
-              background-position: 100% 0;
-            }*/
 
       /*   Toggle Back Colors  */
 
@@ -483,27 +463,17 @@ span.icon-arrow-left:before {
               padding: auto 0;
             }
 
-
             .next {
-                float: left;
-                padding-right: 1em;
+              padding-right: 1em; 
             }
 
+                .icon-arrow-right{
+                padding-top: .15em;
+                float: right;
 
-            a.arrow-right {
-              position: absolute;
-              top: 50%;
-              transform: translateY(-50%);
-              width: 1em;
-              height: 0;
-              padding-bottom: .55em;
-              background-image: url("assets/arrow-right-sprite.png");
-              background-position: right;
-              background-size: 300% 100%;
-              display: block;
-        
 
-            }
+}
+
 
     /*   Toggle Next Colors  */
 
