@@ -79,7 +79,7 @@ header {
 	height: 6em;
 	min-height: 6em;
 	background-color: #ffffff;
-	box-shadow:0 .3em 1em -.6em #888888;
+/*	box-shadow:0 .3em 1em -.6em #888888;*/
 	padding: 2.1em 4.3%;
 	position:fixed;
 	width : 100%;
@@ -154,18 +154,49 @@ a.logo-sprite:active {
 
 
 
-/* Slideshow */
+/* Introduction */
 
-.slideshow img {
-	margin : 6em 0 0 0;
-	/*clear: both;*/
-	background-color: #DBEEFF;
-	max-width: auto;
-	max-height: 3456px;
-	width: 100%; 
+
+.intro {
+	margin-top: 6em 0 auto 0;
+	background-color: #ffffff;
+	padding: 11.3% 4.3% 6.3% 4.3%;
 
 }
 
+.intro h1 {
+
+	font-family: 'Abel', sans-serif;
+	font-size: 2.5em;
+	color: #ce662c;
+	margin-bottom: .3em;
+	letter-spacing: .1em;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.intro h2 {
+
+	font-family: 'Abel', sans-serif;
+	font-size: 1.2em;
+	color: #ce662c;
+	margin-bottom: 1em;
+	letter-spacing: .1em;
+	text-align: center;
+	text-transform: capitalize;
+
+}
+
+.intro p {
+	margin: 0 auto;
+	width: 50%;
+	display: block;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1em;
+
+}
 
 /* About Me Section */
 
