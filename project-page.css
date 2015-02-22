@@ -234,7 +234,7 @@ a.logo-sprite:active {
 
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 4.3% 4.3%;
+  padding: 4.3% 15.3%;
 
 }
 
@@ -242,7 +242,7 @@ a.logo-sprite:active {
 
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 0 4.3% 4.3% 4.3%;  
+  padding: 0 15.3% 4.3% 15.3%;  
 
 }
 
@@ -268,19 +268,44 @@ a.logo-sprite:active {
   }
 
         /*Text Columns*/
-        .col-1-2 {
-
-           -webkit-column-count: 2;
-            -moz-column-count: 2;
-                 column-count: 2;
-          -webkit-column-gap: 3.4em;
-             -moz-column-gap: 3.4em;
-                  column-gap: 3.4em;
-          float: left;
-          vertical-align: top;
 
 
+          /*Double Column*/
+
+              /*White*/
+                .col-1-2 {
+
+                   -webkit-column-count: 2;
+                    -moz-column-count: 2;
+                         column-count: 2;
+                  -webkit-column-gap: 3.4em;
+                     -moz-column-gap: 3.4em;
+                          column-gap: 3.4em;
+                  float: left;
+                  vertical-align: top;
+                  
+                  }
+
+
+                .summary-divider {
+
+                  border-bottom:1px solid #ededed;
+                }
+        .single-col p{
+          margin: 0 auto;
+          width: 50%;
+          display: block;
+          margin-top: 0;
         }
+
+        .mult-paragraphs p{
+
+          margin-bottom: 1em;
+        }
+
+        .single-col:last-child {
+           margin-bottom: 0;
+        } 
 
 strong {
 
@@ -332,6 +357,7 @@ p {
     font-family: 'Abel', sans-serif;
     font-size: 1em;
     color: #818181;
+      margin-bottom: 1em;
    
    }
 

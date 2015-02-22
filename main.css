@@ -160,7 +160,7 @@ a.logo-sprite:active {
 .intro {
 	margin-top: 6em 0 auto 0;
 	background-color: #ffffff;
-	padding: 11.3% 4.3% 6.3% 4.3%;
+	padding: 12.3% 4.3% 7.3% 4.3%;
 
 }
 
@@ -197,6 +197,37 @@ a.logo-sprite:active {
 	margin-bottom: 1em;
 
 }
+
+		/*Intro Animations*/
+
+				#enter-first {
+
+				  -webkit-animation-duration: 2.8s;
+				  -moz-animation-duration: 2.8s;
+
+
+				}
+
+				#enter-second {
+				  -webkit-animation-duration: 1.6s;
+/*				  -webkit-animation-delay: .2s;*/
+
+
+				  -moz-animation-duration: 1.6s;
+/*				  -moz-animation-delay: .2s;*/
+
+				}
+
+				#enter-third {
+				  -webkit-animation-duration: 1.4s;
+				  -webkit-animation-delay: .5s;
+
+
+				  -moz-animation-duration: 1.4s;
+				  -moz-animation-delay: .5s;
+
+				}
+
 
 /* About Me Section */
 
