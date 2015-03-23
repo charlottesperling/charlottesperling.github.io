@@ -242,7 +242,7 @@ a.logo-sprite:active {
 
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 2% 15.3% 6.3% 15.3%;  
+  padding: 6.3% 15.3% 6.3% 15.3%;  
 
 }
 
@@ -260,12 +260,38 @@ a.logo-sprite:active {
 
 .project-h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 2em;
     letter-spacing: .1em;
     text-align: center;
     text-transform: capitalize;
   }
+
+/*  .project-h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+  }
+
+  .project-h3-center {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: .1em;
+  }*/
+
+/*.project-h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    margin-bottom: 1em;*/
+/*    letter-spacing: .1em;*/
+/*    text-align: center;*/
+/*    color: #818181;
+    text-transform: capitalize;
+  }*/
 
         /*Text Columns*/
 
@@ -306,6 +332,7 @@ a.logo-sprite:active {
 
         .col-left {
           width: 47%;
+          max-width: 45em;
           display: block;
           margin-top: 0;
           margin-right: 1.5em;
@@ -319,6 +346,7 @@ a.logo-sprite:active {
 
 
         .col-right {
+          max-width: 45em;
           width: 47%;
           display: block;
           margin-top: 0;
@@ -369,7 +397,7 @@ strong {
 
 .daughter-header {
 
-      color: #000000;
+      color: #4F4F4F;
 }
 
 
@@ -400,7 +428,7 @@ p {
 .half-span-container { 
 
   background-color: #ffffff;
-  padding: 0 4.2% 4.2% 4.2%;
+  padding: 0 4.2% 0 4.2%;
   margin: 0 auto;
 
 }
@@ -418,13 +446,19 @@ p {
 
 .full-span-secondary img{
 
-  padding: 0 4.2% 4.2% 4.2%;
+/*  padding: 0 4.2% 4.2% 4.2%;*/
   /*clear: both;*/
   max-width: auto;
   max-height: 3456px;
   width: 100%; 
 /*  padding: 0 4.3%; */
 
+}
+
+.full-span-secondary-bg {
+
+  background-color: #f6f6f6;
+/*  margin: 0 4.2% 4.2% 4.2%;*/
 }
 
 /* Work Toggle Nav */
