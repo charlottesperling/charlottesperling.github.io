@@ -504,6 +504,8 @@ nav.work-toggle-container a {
 
             }
 
+
+
       /*Arrow Left Position*/
 
           .icon-arrow-left {
@@ -512,6 +514,21 @@ nav.work-toggle-container a {
                 float: left;
 
 }
+
+            @media (max-width: 550px) {
+
+                div.toggle-back .back {
+
+                  display: none;
+
+                }
+
+                .icon-arrow-left {
+
+                  padding-right: 3em;
+                  padding-left: 1em;
+                }
+              }
 
 
       /*   Toggle Back Colors  */
@@ -533,6 +550,7 @@ nav.work-toggle-container a {
                     }
 
 
+
 /*Toggle Next*/
 
       /*   Toggle Next Position  */
@@ -552,6 +570,21 @@ nav.work-toggle-container a {
 
 
 }
+
+            @media (max-width: 550px) {
+
+                div.toggle-next .next {
+
+                  display: none;
+
+                }
+
+                .icon-arrow-right {
+
+                  padding-left: 3em;
+                  padding-right: 1em;
+                }
+              }
 
 
     /*   Toggle Next Colors  */
