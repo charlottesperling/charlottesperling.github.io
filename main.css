@@ -84,6 +84,12 @@ header {
 	position:fixed;
 	width : 100%;
 	z-index: 200;
+	top:0;
+	-webkit-transition: top 0.2s ease-in-out;
+	-moz-transition: top 0.2s ease-in-out;
+	-ms-transition: top 0.2s ease-in-out;
+	-o-transition: top 0.2s ease-in-out;
+	transition: top 0.2s ease-in-out;
 	/*padding : 0 4.3%;*/
 }
 
@@ -99,6 +105,16 @@ a.logo-sprite {
 	background-position: 0 0;
 	background-size: 300% 100%;
 	display: block;
+}
+
+@media (max-width: 430px) {
+
+	a.logo-sprite {
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
 }
 
 a.logo-sprite:hover {
@@ -152,7 +168,10 @@ a.logo-sprite:active {
 
 					}
 
-
+/*	Added With Jquery - responsive header scroll*/
+	.nav-up {
+	  top: -6em;
+	}
 
 /* Introduction */
 
