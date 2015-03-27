@@ -34,10 +34,10 @@
 <!-- Full Navigation -->
 		  	<header>
 		  		<a class="logo-sprite" href="#home-anchor"></a>
-		  		<a class="icon-ham-menu" id="trigger-nav"></a>
-		  		<a class="icon-x"></a>
+		  		<!-- <a class="icon-ham-menu" id="menu"></a> -->
+		  		<!-- <a class="icon-x"></a> -->
 		  		
-		  		<ul class="pages">
+		  		<ul class="pages" id="mobile-nav">
 		  			<li><a href="#about-me-anchor">
 		  				About</a></li>
 
@@ -47,18 +47,11 @@
 		  			<li><a href="#contact-anchor">
 		  			Contact</a></li>
 
-					<li><a id="test" href="http://jquery.com/">
-		  			Test</a></li>
 
 		  		</ul>
 		  		
 		  	</header>
 
-		  	<!--      Mobile Nav      -->
-				<!-- <div class="mobile-nav clearfix">
-		  				<a class="ham-menu-icon" id="trigger-nav" ></a>
-		  				<a class="icon-x" "js-nav-open"></a>	
-		  			</div> -->
 
 <!-- Intro -->
 		<a name="home-anchor">
@@ -210,36 +203,12 @@
 </a>
 	</div>
 
-
-
-
-
-
-
-
-
 	
 <!-- 	JQuery -->
 
 
 <script src="jquery-1.11.2.js"></script>
-
-<script>
-	
-		var main = function(){
-			$("#trigger-nav").click(function(){
-				$("header").animate({left: "0px"}, 200);
-
-			});
-
-		};
-
-
-	    $( document ).ready(main);
-
-
-
-</script>
+<script src="index.js"></script>
 
 
 

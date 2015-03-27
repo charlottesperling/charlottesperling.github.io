@@ -1,4 +1,3 @@
-
 /* CSS Reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
@@ -163,21 +162,34 @@ a.logo-sprite:active {
 	display: none;
 }
 
-.icon-x {
+/*.icon-x {
 
 	display: none;
-}
+}*/
 
-/*	Added With Jquery - responsive header scroll*/
-	.nav-up {
-	  top: -6em;
-	}
 
 	/*	Mobile Navigation */
 
 				@media (max-width: 790px) {
 
-					/*Menu Closed*/
+						
+							header {
+								height: auto;
+								background-color: #ffffff;
+								padding: 2.1em 4.3% 2.1em 4.3%;
+							}
+							a.logo-sprite {
+								clear: both;
+								margin-right: 0;
+							}
+
+							/*.icon-x {
+								float: right;
+								display: block;
+								color:#b9b9b9;
+								font-size: .9em;
+								padding-top: .4em;
+							}*/
 
 							.icon-ham-menu {
 								float: right;
@@ -200,83 +212,37 @@ a.logo-sprite:active {
 								color: #E6B000;
 
 							}
+									/*Jquery added classes*/
+											.icon-ham-menu.js {
+												color: #ffc400;
+												}
 
-							a.logo-sprite {
-
-								clear: both;
-								margin: 0 0 3em 0;
-								}
-
-							.icon-x {
-
-								display: none;
-							}
-
-
-							.pages { 
-								display: none;
-
-							}
-
-							.pages li {
-								display: none;
-
-
-							}
-
-							.pages li:last-child {
-								display: none;
-							}
-
-					/*Menu Open*/
-
-						
-							/*header {
-								height: auto;
-								background-color: #ffffff;
-
-
-							}
-
-							a.logo-sprite {
-
-								clear: both;
-								margin: 0 0 3em 0;
-
-
-							}
-
-							.icon-x {
-								float: right;
-								display: block;
-								color:#b9b9b9;
-								font-size: .9em;
-								padding-top: .4em;
-
-
-							}
+											#mobile-nav.js{
+												display: none;
+												}
 
 							.pages { 
 								clear: both;
 								display: block;
 								float: none;
 								margin: 0 auto;
-							}
+								}
 
+							.pages li:first-child{
+								margin-top: 0;
+								padding-top: 2.5em;
+							}
+							
 							.pages li {
 								margin: 1.5em auto 1.5em auto;
 								text-align: center;
 								float: none;
-
-
-						}
-
-						.pages li:last-child {
-							margin: 0 auto;
-							margin: 1.5em auto 1.5em auto;
-						}
-
-						}*/
+							}
+							.pages li:last-child {
+								margin: 1.5em auto 0 auto;
+								padding-bottom: 1.5em;
+							}
+							}
 
 				}
 
