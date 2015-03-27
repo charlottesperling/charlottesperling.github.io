@@ -107,16 +107,6 @@ a.logo-sprite {
 	display: block;
 }
 
-@media (max-width: 430px) {
-
-	a.logo-sprite {
-		margin: 0 auto;
-		display: block;
-		text-align: center;
-	}
-
-}
-
 a.logo-sprite:hover {
 
 		background-position: 50% 0;
@@ -168,10 +158,127 @@ a.logo-sprite:active {
 
 					}
 
+.icon-ham-menu {
+
+	display: none;
+}
+
+.icon-x {
+
+	display: none;
+}
+
 /*	Added With Jquery - responsive header scroll*/
 	.nav-up {
 	  top: -6em;
 	}
+
+	/*	Mobile Navigation */
+
+				@media (max-width: 790px) {
+
+					/*Menu Closed*/
+
+							.icon-ham-menu {
+								float: right;
+								display: block;
+								color:#b9b9b9;
+								font-size: 1.2em;
+								padding-top: .1em;
+								color: #b9b9b9;
+
+							}
+
+							.icon-ham-menu:hover {
+
+								color: #ffc400;
+
+							}
+
+							.icon-ham-menu:active {
+
+								color: #E6B000;
+
+							}
+
+							a.logo-sprite {
+
+								clear: both;
+								margin: 0 0 3em 0;
+								}
+
+							.icon-x {
+
+								display: none;
+							}
+
+
+							.pages { 
+								display: none;
+
+							}
+
+							.pages li {
+								display: none;
+
+
+							}
+
+							.pages li:last-child {
+								display: none;
+							}
+
+					/*Menu Open*/
+
+						
+							/*header {
+								height: auto;
+								background-color: #ffffff;
+
+
+							}
+
+							a.logo-sprite {
+
+								clear: both;
+								margin: 0 0 3em 0;
+
+
+							}
+
+							.icon-x {
+								float: right;
+								display: block;
+								color:#b9b9b9;
+								font-size: .9em;
+								padding-top: .4em;
+
+
+							}
+
+							.pages { 
+								clear: both;
+								display: block;
+								float: none;
+								margin: 0 auto;
+							}
+
+							.pages li {
+								margin: 1.5em auto 1.5em auto;
+								text-align: center;
+								float: none;
+
+
+						}
+
+						.pages li:last-child {
+							margin: 0 auto;
+							margin: 1.5em auto 1.5em auto;
+						}
+
+						}*/
+
+				}
 
 /* Introduction */
 
@@ -181,6 +288,13 @@ a.logo-sprite:active {
 	background-color: #ffffff;
 	padding: 12.3% 4.3% 7.3% 4.3%;
 
+}
+
+	@media (max-width: 790px) {
+		.intro {
+			margin-top: 3em;
+
+	}
 }
 
 .intro h1 {
@@ -480,8 +594,6 @@ p {
 
 /*.free-people-preview {
 	background-color: rgba(207,71,42,0.6);
-
-
 }*/
 
 
@@ -545,6 +657,3 @@ footer {
 		color: #818181;
 
 }
-
-
-

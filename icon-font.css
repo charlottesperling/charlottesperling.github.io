@@ -44,3 +44,9 @@
 .icon-arrow-right:before {
   content: "d";
 }
+.icon-x:before {
+  content: "x";
+}
+.icon-ham-menu:before {
+  content: "m";
+}
