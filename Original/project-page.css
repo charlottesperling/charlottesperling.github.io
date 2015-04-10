@@ -1,0 +1,625 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Border Box Version of Box Model */
+
+
+/** {border : red solid 1px !important;}*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* Container */
+
+.container {
+
+  max-width: 150em;
+/*  max-width: 324em;*/
+  margin: 0 auto;
+}
+
+
+/* Navigation */
+
+header {
+  height: 6em;
+  min-height: 6em;
+  background-color: #ffffff;
+  box-shadow:0 .3em 1em -.6em #888888;
+  padding: 2.1em 4.3%;
+  position:fixed;
+  width : 100%;
+  z-index: 200;
+  /*padding : 0 4.3%;*/
+}
+
+
+a.logo-sprite {
+
+  float: left;
+  margin-right: 6em;
+  width: 19em;
+  height: 0;
+  padding-bottom: 1.6em;
+  background-image: url("logo-sprite.jpg");
+  background-position: 0 0;
+  background-size: 300% 100%;
+  display: block;
+}
+
+a.logo-sprite:hover {
+
+    background-position: 50% 0;
+}
+
+a.logo-sprite:active {
+    background-position: 100% 0;
+
+}
+
+.pages { 
+
+  float: right;
+    margin: .2em 0;
+}
+
+.pages li {
+  list-style-type: none;
+  margin-right: 3em;
+  text-align: right;
+  display: block;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+
+
+  /* To keep menu list in order*/
+    float: left;
+
+
+}
+
+.pages li:last-child {
+  margin-right: 0;
+}
+
+.pages li a {
+
+  text-decoration: none;
+  color: #818181;
+}
+
+      .pages li a:hover {
+        color: #ffc400;
+
+        }
+
+      .pages li a:active {
+          color: #E6B000;
+
+          }
+
+/* Main Image */
+
+.full-span img {
+  margin-top : 6em;
+  /*clear: both;*/
+  max-width: auto;
+  max-height: 3456px;
+  width: 100%; 
+/*  padding: 0 4.3%; */
+
+}
+
+.full-span-bg {
+
+  background-color: #f6f6f6;
+}
+
+/* Project Summary */
+
+.clearfix:after{
+
+      content:".";
+        display:block;
+        height:0;
+        clear:both;
+        visibility:hidden;
+}
+
+.primary-summary-wrapper {
+
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 6.3% 15.3%;
+
+}
+
+        @media (max-width: 1200px) {
+
+          .primary-summary-wrapper {
+            padding: 6.3% 9.3%;
+
+
+          }}
+
+
+/*Project Header Style*/
+
+.project-h1 {
+
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: .3em;
+    letter-spacing: .1em;
+    text-align: center;
+        text-transform: uppercase;
+   }
+
+.project-h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    letter-spacing: .1em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  @media (max-width: 1009px) {
+
+          .project-h1 {
+              font-size: 2.2em;
+              margin: .5em 0 .4em 0;
+        }
+
+        }
+
+/*Text Columns*/
+
+
+
+
+        .summary-divider {
+
+                  border-bottom:1px solid #ededed;
+                }
+/*Single Column*/
+        .single-col {
+          margin: 0 auto;
+          width: 50%;
+          max-width: 40em;
+          display: block;
+        }
+
+
+        @media (max-width: 1650px) {
+
+            .single-col {
+
+            width: 100%;
+                  }
+                }
+
+/*Double Column*/
+        .col-left {
+          width: 47%;
+          max-width: 45em;
+          display: block;
+          margin-top: 0;
+          margin-right: 1.5em;
+          float:left;
+        }
+
+
+              .col-left p{
+
+                margin-bottom: 1em;
+              }
+
+
+        .col-right {
+          max-width: 45em;
+          width: 47%;
+          display: block;
+          margin-top: 0;
+          margin-left: 1.5em;
+          float:right;
+        }
+
+                .col-right p{
+
+                margin-bottom: 1em;
+              }
+
+        @media (max-width: 1010px) {
+
+          .col-left, .col-right {
+
+            width: 45%;
+            margin-left: 1em;
+            margin-right: 1em;
+          }
+        }
+
+        @media (max-width: 1009px) {
+
+          .col-left, .col-right {
+
+            width: 100%;
+            margin: 0 auto;
+            float: left;
+          }
+        }
+
+strong {
+
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    display: inline;
+
+}
+
+/*Project Header Colors*/
+
+.free-people-header {
+
+      color: #cf472a;
+
+}
+
+.ubook-header {
+
+      color: #425c74;
+
+}
+
+.juvet-header {
+
+      color: #201b53;
+
+}
+
+.brewing-label-header {
+
+      color: #A53A38;
+}
+
+.daughter-header {
+
+      color: #4F4F4F;
+}
+
+
+
+/*Project Summary Paragraph Style*/
+
+p {
+
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    color: #818181;
+    line-height: 1.4em;
+   
+   }
+
+/*   Project Images   */
+
+.clearfix:after{
+
+      content:".";
+        display:block;
+        height:0;
+        clear:both;
+        visibility:hidden;
+}
+
+
+.half-span-container { 
+
+  background-color: #ffffff;
+  padding: 0 4.2% 0 4.2%;
+  margin: 0 auto;
+
+}
+
+.half-span {
+/*  position: relative;*/
+  width: 49%;
+  float: left;
+  padding: .1%;
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+.full-span-secondary img{
+
+/*  padding: 0 4.2% 4.2% 4.2%;*/
+  /*clear: both;*/
+  max-width: auto;
+  max-height: 3456px;
+  width: 100%; 
+/*  padding: 0 4.3%; */
+
+}
+
+.full-span-secondary-bg {
+
+  background-color: #f6f6f6;
+/*  margin: 0 4.2% 4.2% 4.2%;*/
+}
+
+/* Work Toggle Nav */
+
+.clearfix:after{
+
+      content:".";
+        display:block;
+        height:0;
+        clear:both;
+        visibility:hidden;
+}
+
+
+/*Style Toggle Nav Container*/
+
+nav.work-toggle-container {
+  background-color: #ffffff;
+  padding: 2.1em 4.3%;
+  width : 100%;
+/*  position: relative;*/
+  border-top: 1px solid #ededed;
+  /*padding : 0 4.3%;*/
+}
+
+
+/*Style Toggle Nav Links*/
+
+nav.work-toggle-container a {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-top: .1em;
+}
+
+
+/*Toggle Back*/
+      /*   Toggle Back Position  */
+
+            div.toggle-back { 
+              position: relative;
+              float: left;
+              padding: auto 0;
+            }
+
+
+            .back {
+              padding-left: 1em; 
+
+            }
+
+
+
+      /*Arrow Left Position*/
+
+          .icon-arrow-left {
+/*                position: absolute;*/
+
+                float: left;
+
+}
+
+            @media (max-width: 550px) {
+
+                div.toggle-back .back {
+
+                  display: none;
+
+                }
+
+                .icon-arrow-left {
+
+                  padding-right: 3em;
+                  padding-left: 1em;
+                }
+              }
+
+
+      /*   Toggle Back Colors  */
+
+            div.toggle-back {
+
+                    color: #b9b9b9;
+
+            }
+
+            div.toggle-back:hover {
+                    color: #ffc400;
+
+                    }
+
+            div.toggle-back:active {
+                    color: #E6B000;
+
+                    }
+
+
+
+/*Toggle Next*/
+
+      /*   Toggle Next Position  */
+            div.toggle-next {
+              position: relative;
+              float: right;
+              padding: auto 0;
+            }
+
+            .next {
+              padding-right: 1em; 
+            }
+
+                .icon-arrow-right{
+
+                float: right;
+
+
+}
+
+            @media (max-width: 550px) {
+
+                div.toggle-next .next {
+
+                  display: none;
+
+                }
+
+                .icon-arrow-right {
+
+                  padding-left: 3em;
+                  padding-right: 1em;
+                }
+              }
+
+
+    /*   Toggle Next Colors  */
+
+            div.toggle-next {
+
+                    color: #b9b9b9;
+
+            }
+
+            div.toggle-next:hover {
+                    color: #ffc400;
+
+                    }
+
+            div.toggle-next:active {
+                    color: #E6B000;
+
+                    }
+
+            /*  Nav inherits colors from the div  */
+
+            nav.work-toggle-container a {
+              color:inherit;
+            }
+
+/*Footer*/
+
+footer {
+  background-color: #f6f6f6;
+  padding: 2.1em 4.3%;
+  width : 100%;
+}
+
+#footer-header {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.1em;
+  color: #ffc400;
+  margin-bottom: .2em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+
+}
+
+.footer-intro {
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    color: #818181;
+    line-height: 1.2em;
+    margin-bottom: .8em;
+   
+   }
+   
+.contact-links li {
+    display: inline-block;
+
+   }
+
+    .contact-links li a {
+        font-family: 'Abel', sans-serif;
+        font-size: 1em;
+        color: #818181;
+        margin-bottom: .3em;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+          .contact-links li a:hover {
+              color: #ffc400;
+
+            }
+
+          .contact-links li a:active {
+              color: #E6B000;
+
+            }
+
+
+
+.contact-info {
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    color: #818181;
+
+}
+
