@@ -82,7 +82,6 @@ header {
 	padding: 2.1em 4.3%;
 	position:fixed;
 	width : 100%;
-	margin-bottom: 2em;
 	z-index: 200;
 	top:0;
 	-webkit-transition: top 0.2s ease-in-out;
@@ -251,7 +250,7 @@ a.logo-sprite:active {
 
 
 .intro {
-	margin-top: 6em 0 auto 0;
+	margin-top: 14em 0 auto 0;
 	background-color: #ffffff;
 	padding: 12.3% 4.3% 7.3% 4.3%;
 
@@ -274,6 +273,8 @@ a.logo-sprite:active {
 	text-align: center;
 	text-transform: uppercase;
 
+
+
 }
 
 .intro h2 {
@@ -295,6 +296,11 @@ a.logo-sprite:active {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 1em;
+
+}
+
+.intro p:last-child {
+	margin-bottom: 0;
 
 }
 
@@ -453,8 +459,7 @@ p {
 
 	background-color: #ffffff;
 	margin: 0 auto;
-	padding: 9.3% 4.3% 4.3% 4.3%;
-
+	padding: 4.3% 4.3%;
 
 }
 
@@ -490,14 +495,33 @@ p {
 		width: 100%;
 		height: 100%;
 
-
 	}
 
 .hover-box{
 	opacity: 0;
 
+
 }
 
+	/*Text Hover*/
+.hover-text{
+		font-family: 'Abel', sans-serif;
+		font-size: 1.2em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		color: #ffffff;
+		border: .15em solid #ffffff;
+		padding: .8em 2.5em;
+		text-decoration: none;
+
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+
+
+}
 
 /*Hover Box Colors*/
 
@@ -513,10 +537,12 @@ p {
 		background-color: #425c74;
 		background-color: rgba(66,92,116,0.8);
 
+
 		-webkit-transition: opacity 500ms;
   		-moz-transition: opacity 500ms;
  		-o-transition: opacity 500ms;
   		transition: opacity 500ms;
+
 
 }
 
@@ -549,45 +575,7 @@ p {
 
 }
 
-.luminary:hover {
-		opacity: 100;
-		background-color: #33446f;
-		background-color: rgba(51,68,111,0.8);
-}
 
-.oct:hover {
-		opacity: 100;
-		background-color: #b8cc6e;
-		background-color: rgba(184,204,110,0.8);
-}
-
-.motion:hover {
-		opacity: 100;
-		background-color: #ffc400;
-		background-color: rgba(255,196,0,0.8);
-}
-
-
-	/*Text Hover*/
-.hover-text {
-		font-family: 'Abel', sans-serif;
-		font-size: 1.2em;
-		letter-spacing: .1em;
-		text-transform: uppercase;
-		color: #ffffff;
-		border: .15em solid #ffffff;
-		padding: .8em 2.5em;
-		text-decoration: none;
-		position: absolute;
-		
-	    top: 50%;
-	    left: 50%;
-	    margin-right: -50%;
-	    transform: translate(-50%, -50%);
-	    text-decoration: none;
-
-
-}
 
 /*Project Hover Colors*/
 
