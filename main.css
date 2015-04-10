@@ -250,7 +250,7 @@ a.logo-sprite:active {
 
 
 .intro {
-	margin-top: 6em 0 auto 0;
+	margin-top: 10em 0 auto 0;
 	background-color: #ffffff;
 	padding: 12.3% 4.3% 7.3% 4.3%;
 
@@ -273,6 +273,8 @@ a.logo-sprite:active {
 	text-align: center;
 	text-transform: uppercase;
 
+
+
 }
 
 .intro h2 {
@@ -294,6 +296,11 @@ a.logo-sprite:active {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 1em;
+
+}
+
+.intro p:last-child {
+	margin-bottom: 0;
 
 }
 
@@ -508,6 +515,13 @@ p {
 		background-color: #425c74;
 		background-color: rgba(66,92,116,0.8);
 
+
+		-webkit-transition: opacity 500ms;
+  		-moz-transition: opacity 500ms;
+ 		-o-transition: opacity 500ms;
+  		transition: opacity 500ms;
+
+
 }
 
 
@@ -554,6 +568,8 @@ p {
 	    margin-right: -50%;
 	    transform: translate(-50%, -50%);
 	    text-decoration: none;
+
+	    
 }
 
 /*Project Hover Colors*/
