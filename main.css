@@ -248,17 +248,25 @@ a.logo-sprite:active {
 
 /* Introduction */
 
+.clearfix:after{
+
+	    content:".";
+        display:block;
+        height:0;
+        clear:both;
+        visibility:hidden;
+}
 
 .intro {
-	margin-top: 14em 0 auto 0;
+	margin: 8em 0 auto 0;
 	background-color: #ffffff;
-	padding: 12.3% 4.3% 7.3% 4.3%;
+	padding: 0 4.3%;
 
 }
 
 	@media (max-width: 790px) {
 		.intro {
-			margin-top: 3em;
+			margin-top: 8em;
 
 	}
 }
@@ -501,6 +509,7 @@ p {
 	opacity: 0;
 
 
+
 }
 
 	/*Text Hover*/
@@ -525,6 +534,17 @@ p {
 
 /*Hover Box Colors*/
 
+.hover-box:hover {
+
+
+		-webkit-transition: opacity 500ms;
+  		-moz-transition: opacity 500ms;
+ 		-o-transition: opacity 500ms;
+  		transition: opacity 500ms;
+
+}
+
+
 .free-people:hover {
 		opacity: 100;
 		background-color: #cf472a;
@@ -536,14 +556,6 @@ p {
 		opacity: 100;
 		background-color: #425c74;
 		background-color: rgba(66,92,116,0.8);
-
-
-		-webkit-transition: opacity 500ms;
-  		-moz-transition: opacity 500ms;
- 		-o-transition: opacity 500ms;
-  		transition: opacity 500ms;
-
-
 }
 
 
@@ -575,7 +587,23 @@ p {
 
 }
 
+.luminary:hover {
+		opacity: 100;
+		background-color: #33446f;
+		background-color: rgba(51,68,111,0.8);
+}
 
+.oct:hover {
+		opacity: 100;
+		background-color: #b8cc6e;
+		background-color: rgba(184,204,110,0.8);
+}
+
+.yellow:hover {
+		opacity: 100;
+		background-color: #ffc400;
+		background-color: rgba(255,196,0,0.8);
+}
 
 /*Project Hover Colors*/
 
