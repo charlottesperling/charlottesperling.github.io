@@ -329,9 +329,27 @@ strong {
 
 }
 
+.yellow-header {
+
+      color: #ffc400;
+
+}
+
+.mint-header {
+
+      color: #ACBE66;
+
+}
+
 .juvet-header {
 
       color: #201b53;
+
+}
+
+.luminary-header {
+
+      color: #33446f;
 
 }
 
@@ -340,9 +358,9 @@ strong {
       color: #A53A38;
 }
 
-.daughter-header {
+.dark-header {
 
-      color: #4F4F4F;
+      color: #3a3a3a;
 }
 
 
@@ -404,6 +422,11 @@ p {
 
   background-color: #f6f6f6;
 /*  margin: 0 4.2% 4.2% 4.2%;*/
+}
+
+.full-span-bg-dark {
+  background-color: #231f20;
+
 }
 
 /* Work Toggle Nav */
