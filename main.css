@@ -314,22 +314,22 @@ a.logo-sprite:active {
 
 		/*Intro Animations*/
 
-				/*#enter-first {
+				#enter-first {
 
 				  -webkit-animation-duration: 2.8s;
 				  -moz-animation-duration: 2.8s;
 
 
-				}*/
+				}
 
-				/*#enter-second {
-				  -webkit-animation-duration: 1.6s;*/
+				#enter-second {
+				  -webkit-animation-duration: 1.6s;
 
 
 
-				  /*-moz-animation-duration: 1.6s;*/
+				  -moz-animation-duration: 1.6s;
 
-				/*}
+				}
 
 				#enter-third {
 				  -webkit-animation-duration: 1.4s;
@@ -340,7 +340,7 @@ a.logo-sprite:active {
 				  -moz-animation-delay: .5s;
 
 				}
-*/
+
 
 /* About Me Section */
 
@@ -533,7 +533,7 @@ p {
 
 /*Hover Box Colors*/
 
-/*.hover-box:hover {
+.hover-box:hover {
 
 
 		-webkit-transition: opacity 500ms;
@@ -603,7 +603,7 @@ p {
 		background-color: #ffc400;
 		background-color: rgba(255,196,0,0.8);
 }
-*/
+
 /*Project Hover Colors*/
 
 /*.free-people-preview {
