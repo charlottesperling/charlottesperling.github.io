@@ -72,18 +72,23 @@ table {
   margin: 0 auto;
 }
 
-
 /* Navigation */
 
 header {
   height: 6em;
   min-height: 6em;
   background-color: #ffffff;
-  box-shadow:0 .3em 1em -.6em #888888;
+/*  box-shadow:0 .3em 1em -.6em #888888;*/
   padding: 2.1em 4.3%;
   position:fixed;
   width : 100%;
   z-index: 200;
+  top:0;
+  -webkit-transition: top 0.2s ease-in-out;
+  -moz-transition: top 0.2s ease-in-out;
+  -ms-transition: top 0.2s ease-in-out;
+  -o-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
   /*padding : 0 4.3%;*/
 }
 
@@ -151,6 +156,108 @@ a.logo-sprite:active {
           color: #E6B000;
 
           }
+
+.icon-ham-menu {
+
+  display: none;
+}
+
+/*.icon-x {
+
+  display: none;
+}*/
+
+
+  /*  Mobile Navigation */
+
+        @media (max-width: 790px) {
+
+            
+              header {
+                height: auto;
+                background-color: #ffffff;
+                padding: 2.1em 4.3% 2.1em 4.3%;
+              }
+              a.logo-sprite {
+                clear: both;
+                margin-right: 0;
+                background-image: url("cs-logo-sprite.png");
+                background-size: 100% 200%;
+                width: 4.5em;
+              }
+
+              a.logo-sprite:hover {
+
+                background-position: 0 90%;
+            }
+
+              a.logo-sprite:active {
+                background-position: 0% 90%;
+
+            }
+
+              /*.icon-x {
+                float: right;
+                display: block;
+                color:#b9b9b9;
+                font-size: .9em;
+                padding-top: .4em;
+              }*/
+
+              .icon-ham-menu {
+                float: right;
+                display: block;
+                color:#b9b9b9;
+                font-size: 1.2em;
+                padding-top: .1em;
+                color: #b9b9b9;
+
+              }
+
+              .icon-ham-menu:hover {
+
+                color: #ffc400;
+
+              }
+
+              .icon-ham-menu:active {
+
+                color: #E6B000;
+
+              }
+                  /*Jquery added classes*/
+                      .icon-ham-menu.js {
+                        color: #ffc400;
+                        }
+
+                      #mobile-nav.js{
+                        display: none;
+                        }
+
+              .pages { 
+                clear: both;
+                display: block;
+                float: none;
+                margin: 0 auto;
+                }
+
+              .pages li:first-child{
+                margin-top: 0;
+                padding-top: 2.5em;
+              }
+              
+              .pages li {
+                margin: 1.5em auto 1.5em auto;
+                text-align: center;
+                float: none;
+              }
+              .pages li:last-child {
+                margin: 1.5em auto 0 auto;
+                padding-bottom: 1.5em;
+              }
+              
+
+        }
 
 /* Main Image */
 
