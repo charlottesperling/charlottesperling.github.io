@@ -181,7 +181,20 @@ a.logo-sprite:active {
 							a.logo-sprite {
 								clear: both;
 								margin-right: 0;
+								background-image: url("cs-logo-sprite.png");
+								background-size: 100% 200%;
+								width: 4.5em;
 							}
+
+							a.logo-sprite:hover {
+
+								background-position: 0 90%;
+						}
+
+							a.logo-sprite:active {
+								background-position: 0% 90%;
+
+						}
 
 							/*.icon-x {
 								float: right;
@@ -467,13 +480,15 @@ p {
 	background-color: #ffffff;
 	margin: 0 auto;
 	padding: 4.3% 4.3%;
-
+/*	font-size: 0;
+*/
 }
 
 .individual-project {
 	position: relative;
 	width: 50%;
 	float: left;
+    margin-bottom: -.25em;
 
 }
 
@@ -492,10 +507,21 @@ p {
 
 }
 
-/* Individual Project Images */
+/* Project Title */
 
-.ubook {
+.project-title {
 
+		  font-family: 'Abel', sans-serif;
+		  font-size: 1em;
+		  letter-spacing: .1em;
+		  text-transform: uppercase;
+		  color: #3a3a3a;
+		  padding: 2em 2.5em;
+		  text-decoration: none;
+		  display: inline;
+		  position: absolute;
+		  left: 0;
+		  bottom: 0;
 
 }
 
@@ -521,7 +547,7 @@ p {
 	/*Text Hover*/
 .hover-text{
 		font-family: 'Abel', sans-serif;
-		font-size: 1.2em;
+		font-size: 1em;
 		letter-spacing: .1em;
 		text-transform: uppercase;
 		color: #ffffff;
@@ -540,6 +566,7 @@ p {
 
 
 }
+
 
 /*Hover Box Colors*/
 
@@ -561,7 +588,7 @@ p {
 
 }
 
-.ubook:hover {
+.light-blue:hover {
 		opacity: 100;
 		background-color: #425c74;
 		background-color: rgba(66,92,116,0.8);
