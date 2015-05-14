@@ -3,9 +3,10 @@ $(document).ready(function () {
 	$("#mobile-nav").addClass("js").before('<div class="icon-ham-menu"></div>');
 	$(".icon-ham-menu").click(function(){
 		$("#mobile-nav").slideToggle();
-			$(this).toggleClass("js");
+			// $(this).toggleClass("js");
 	
 		});
+
 
 	$(window).resize(function(){
 		if(window.innerWidth > 790) {
