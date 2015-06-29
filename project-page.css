@@ -525,6 +525,7 @@ p {
   max-width: auto;
   max-height: 3456px;
   width: 100%; 
+  margin-bottom: -3px;
 /*  padding: 0 4.3%; */
 
 }
@@ -540,6 +541,10 @@ p {
 
 }
 
+.full-span-bg-black {
+  background-color: #1c191a;
+
+}
 /* Work Toggle Nav */
 
 .clearfix:after{
