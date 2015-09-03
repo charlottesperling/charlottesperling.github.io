@@ -292,10 +292,11 @@ a.logo-sprite:active {
 .intro h1 {
 
 	font-family: 'Abel', sans-serif;
-	font-size: 2.5em;
+	font-size: 2.8em;
+	font-weight: 400;
 	color: #ce662c;
-	margin-bottom: .3em;
-	letter-spacing: .1em;
+	margin-bottom: .4em;
+	letter-spacing: .05em;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -303,15 +304,28 @@ a.logo-sprite:active {
 
 }
 
+/*.intro h1 {
+
+	font-family: 'Playfair Display', serif;
+	font-size: 3.2em;
+	font-weight: 400;
+	color: #ce662c;
+	margin-bottom: .4em;
+	text-align: center;
+	text-transform: capitalize;
+
+}*/
+
 .intro h2 {
 
 	font-family: 'Abel', sans-serif;
+	/*font-family: 'Playfair Display', serif;*/
 	font-size: 1.2em;
 	color: #ce662c;
 	margin-bottom: 1em;
 	letter-spacing: .1em;
 	text-align: center;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 
 }
 
@@ -455,9 +469,19 @@ p {
 		font-family: 'Abel', sans-serif;
 		font-size: 1em;
 		color: #818181;
+		line-height: 1.4em;
 	 
 	 }
 
+/*p {
+
+		font-family: 'open sans', sans-serif;
+		font-size: .9em;
+		font-weight: 300;
+		color: #818181;
+	 
+	 }
+*/
 .icn {
  
  	max-width: 3em;

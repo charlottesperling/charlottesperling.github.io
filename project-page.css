@@ -277,8 +277,31 @@ a.logo-sprite:active {
 
 .full-span-bg {
 
-  background-color: #f2f2f2;
+  background-color: #f6f6f6;
 }
+
+.full-span-bg-yellow {
+
+  background-color: #FFECB3;
+}
+
+
+.full-span-bg-green {
+
+/*  background-color: #9CCC65;*/
+  background-color: #AED581;
+  
+}
+
+
+.full-span-bg-light-blue {
+
+/*  background-color: #9CCC65;*/
+  background-color: #b3e5fc;
+  
+}
+
+
 
 /* Project Summary */
 
