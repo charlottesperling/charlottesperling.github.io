@@ -307,6 +307,11 @@ a.logo-sprite:active {
   
 }
 
+.lightest-blue img {
+
+  background-color: #e1f5fe;
+}
+
 .full-span-bg-mid-blue {
 
   background-color: #5497b0;
@@ -522,6 +527,19 @@ p {
    
    }
 
+   .embedded-h2 {
+
+    margin-bottom: 1em;
+    color: #818181;
+
+   }
+
+   .embedded-p {
+
+    padding-bottom: 4em;
+
+   }
+
 /*   Project Images   */
 
 .clearfix:after{
@@ -532,7 +550,6 @@ p {
         clear:both;
         visibility:hidden;
 }
-
 
 .half-span-container { 
 
@@ -550,6 +567,60 @@ p {
   display: block;
   margin: 0 auto;
 
+
+}
+
+.col-40 img{
+  width: 38%;
+  float: left;
+  padding: .1%;
+  display: block;
+  margin-right: 4%;
+
+}
+
+.col-40-h2 {
+/*  float: left;*/
+  padding: 15% 0% 0% 0%;
+/*  margin: 0 auto;*/
+/*  width: 50%;
+  max-width: 40em;*/
+  display: block;
+  margin-bottom: 1em;
+  color: #818181;
+
+  font-family: 'Abel', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+
+}
+
+.col-40-p {
+  float: left;
+  padding: 0% 0% 0% 10%;
+      margin: 0 auto;
+    width: 50%;
+    max-width: 40em;
+    display: block;
+
+}
+
+.col-20 img{
+  width: 18%;
+  float: left;
+  display: block;
+
+}
+
+
+
+.full-span-container {
+
+  max-width: auto;
+  max-height: 3456px;
+  width: 100%; 
+  margin: 0 auto;
 
 }
 
@@ -580,6 +651,8 @@ p {
   background-color: #1c191a;
 
 }
+
+
 /* Work Toggle Nav */
 
 .clearfix:after{
